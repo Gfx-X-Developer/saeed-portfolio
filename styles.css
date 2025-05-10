@@ -232,10 +232,10 @@ body {
 /* Navbar */
 .navbar {
   background: #111;
-  padding: px 0;
+  padding: 10px 0;
   position: sticky;
-  top: 0;
-  z-index: 1000;
+  margin-top: 12px;;
+  border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease-in-out;
 }
@@ -251,6 +251,7 @@ body {
 }
 
 .logo {
+  margin-top: 10px;
   font-size: 1.8rem;
   font-weight: bold;
   color: #dfff00;
@@ -537,12 +538,12 @@ body {
         /* Temporary inline CSS, move to content.css later */
     .logo span.green {
        font-family: 'Great Vibes';
-        font-size:50px;
+        font-size:40px;
   color: #dfff00;
     }
     .logo span.white {
        font-family: 'Great Vibes';
-        font-size:45px;
+        font-size:35px;
       color: white;
     }
 
