@@ -229,16 +229,19 @@ body {
   padding: 0;
 }
 
-/* Navbar */
 .navbar {
   background: #111;
   padding: 10px 0;
-  position: sticky;
-  margin-top: 12px;;
-  border-radius: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
+  border-radius: 0 0 15px 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease-in-out;
 }
+
 
 .container {
   width: 100%;
@@ -845,3 +848,4 @@ body {
       position: absolute;
       left: 10%;
     }
+    
