@@ -211,59 +211,65 @@
               <a href="https://www.instagram.com/direct/t/17848614806725564?hl=en" class="order-btn1" target="_blank">Get Started</a>    </div>
   </div>
 </section>
-  <section id="contact">
-    <div class="contact-header">
-  <a href="contant.html" class="order-btn22" target="_blank">Contact</a>
-<br><br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+<section id="contact">
+  <div class="contact-header">
+    <a href="contant.html" class="order-btn22" target="_blank">Contact</a>
+    <br><br>
+
+    <p>
+      Ready to elevate your content with eye-catching thumbnails?
+      Let's discuss your project and create visuals that get clicks!
+    </p>
+  </div>
+
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Contact Information</h3>
 
       <p>
-        Ready to elevate your content with eye-catching thumbnails?
-        Let's discuss your project and create visuals that get clicks!
+        <i class="fas fa-envelope"></i> <strong>Email:</strong><br>
+        <a href="mailto:saeedahmed8421@gmail.com">saeedahmed8421@gmail.com</a>
       </p>
+
+      <p>
+        <i class="fab fa-instagram"></i> <strong>Instagram:</strong><br>
+        <a href="https://www.instagram.com/saeed_gfx_/" target="_blank">@saeed_gfx_</a>
+      </p>
+
+      <p>
+        <i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong><br>
+        <a href="https://www.linkedin.com/in/saeedgfx/" target="_blank">@saeed ahmed</a>
+      </p>
+
+    
     </div>
 
-    <div class="contact-container">
-        <div class="contact-info">
-          <h3>Contact Information</h3>
-      
-          <p><strong>Email:</strong><br>
-            <a href="mailto:saeedahmed8421@gmail.com">saeedahmed8421@gmail.com</a>
-          </p>
-      
-          <p><strong>Instagram:</strong><br>
-            <a href="https://www.instagram.com/saeed_gfx_/?hl=en" target="_blank">@saeed_gfx_</a>
-          </p>
-      
-          <p><strong>LinkedIn:</strong><br>
-            <a href="https://www.linkedin.com/in/saeedgfx/" target="_blank">@saeed ahmed</a>
-          </p>
-        </div>
-      
-        <form class="contact-form" onsubmit="sendEmail(); return false;">
-            <h3>Send a Message</h3>
-          
-            <label for="name">Name</label>
-            <input type="text" id="name" required />
-          
-            <label for="message">Message</label>
-            <textarea id="message" rows="6" required></textarea>
-          
-            <button type="submit">Send Message</button>
-          </form>
-          
-          <script>
-          function sendEmail() {
-            const name = document.getElementById("name").value;
-            const message = document.getElementById("message").value;
-          
-            const mailtoLink = `mailto:saeedahmed8421@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
-            window.location.href = mailtoLink;
-          }
-          </script>
-          
-    </div>
-  </section>
+    <form class="contact-form" onsubmit="sendEmail(); return false;">
+      <h3>Send a Message</h3>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <script>
+      function sendEmail() {
+        const name = document.getElementById("name").value;
+        const message = document.getElementById("message").value;
+
+        const mailtoLink = `mailto:saeedahmed8421@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}`;
+        window.location.href = mailtoLink;
+      }
+    </script>
+
+  </div>
+</section>
 <div class="hereeeeeeeeeee88-container">
     <h1>Thank You</h1>
     <p>Thank you for visiting my portfolio! I'm excited about the opportunity to bring your content to life with eye-catching thumbnails. Let's create something that stands out — and gets results. Until then, stay creative!</p>
