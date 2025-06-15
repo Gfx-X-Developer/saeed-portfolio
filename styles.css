@@ -4,104 +4,129 @@ body {
     color: white;
     font-family: 'Segoe UI', sans-serif;
   }
+#contact {
+  padding: 40px 20px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-header a {
+  background-color: #d4ff00;
+  color: #000;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-header p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #ccc;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.contact-info,
+.contact-form {
+  background-color: #1a1a1a;
+  padding: 30px;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  min-width: 280px;
+}
+
+.contact-info h3,
+.contact-form h3 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-info p {
+  margin: 15px 0;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.contact-info a {
+  color: #d4ff00;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: #bfff00;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background-color: #2a2a2a;
+  border: 1px solid #d4ff00;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #d4ff00;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #c1eb00;
+}
+
+/* Fiverr specific styles */
+.fiverr-row {
+  display: flex;
   
-  #contact {
-    padding: 40px 20px;
-  }
-  
-  .contact-header {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .contact-header h2 {
-    background-color: #d4ff00;
-    color: #000;
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-header p {
-    max-width: 700px;
-    margin: 0 auto;
-    color: #ccc;
-  }
-  
+}
+
+.fiverr-icon {
+  margin-left: -7px;
+  width: 25px;
+  height: 25px;
+}
+
+.fiverr-link {
+  margin-left: 33px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
   .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
   }
-  
-  .contact-info,
-  .contact-form {
-    background-color: #1a1a1a;
-    padding: 30px;
-    border-radius: 10px;
-    flex: 1 1 300px;
-    min-width: 280px;
-  }
-  
-  .contact-info h3,
-  .contact-form h3 {
-    margin-bottom: 20px;
-  }
-  
-  .contact-info p {
-    margin: 15px 0;
-    line-height: 1.5;
-  }
-  
-  .contact-info a {
-    color: #d4ff00;
-    text-decoration: none;
-  }
-  
-  .contact-form label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    font-weight: 500;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    background-color: #2a2a2a;
-    border: 1px solid #d4ff00;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  
-  .contact-form button {
-    margin-top: 20px;
-    width: 100%;
-    padding: 12px;
-    background-color: #d4ff00;
-    color: black;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .contact-form button:hover {
-    background-color: #c1eb00;
-  }
-  
-  /* Media Queries */
-  @media (max-width: 768px) {
-    .contact-container {
-      flex-direction: column;
-      align-items: stretch;
-    }
-  }
+}
+
   body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
